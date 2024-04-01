@@ -26,8 +26,8 @@ body {
   align-items: center;
   flex-direction: column;
   background-color: #fff;
-  height: 500px;
-  width: 400px;
+  height: auto;
+  width: auto;
   border-radius: 20px;
   box-shadow: 30px 35px 2px #182e6e;
 }
@@ -49,4 +49,30 @@ body {
     flex-direction: column;
     align-items: baseline;
     margin: 20px;
+}
+
+.form_style {
+    outline: none;
+    border: 2px solid #000;
+    box-shadow: 3px 4px 0px 1px #000;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.form_style:focus {
+    transform:  translateY(4px);
+    box-shadow: 1px 2px 0px 0px #000;
+}
+
+.btn {
+    padding: 15px;
+    margin: 40px;
+    width: 310px;
+    font-size: 15px;
+    background: #3a63dc;
+    border-radius: 30px;
+    font-weight: 800;
+    box-shadow: 5px 5px 0px 0px #000;
 }
